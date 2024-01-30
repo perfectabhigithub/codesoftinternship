@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightseagreen;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.myTodo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputvalue {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.inputVal {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.todoLists {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.clearTask {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskItem {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.taskCheckbox {
+    margin-right: 5px;
+}
+
+.taskText {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.removeBtn {
+    position: absolute;
+    left: 700px; 
+    top: 0;
+    margin-left: 10px; 
+}
+
